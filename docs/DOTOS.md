@@ -2,8 +2,11 @@
 (Wifi + BL working, SIM and DATA work. In Czechia only EDGE connection)
 
 ## IMPORTANT
-Your warranty is now void. I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.
+```
+Your warranty is now void. I am not responsible for bricked devices, dead SD cards, thermonuclear war,
+or you getting fired because the alarm app failed.
 Take a full backup of the device before doing any modifications!
+```
 
 ## Step 1:
 If your device is bricked, flash the backup and reboot to system.
