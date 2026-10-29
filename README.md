@@ -7,5 +7,5 @@ Your warranty is now void. I am not responsible for bricked devices, dead SD car
 ### First
 [Unlock Guide](docs/UNLOCK.md)
 
-# Second
+### Second
 [DotOS Install Guide](docs/INSTALL.md)
