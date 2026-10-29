@@ -9,4 +9,4 @@ dead SD cards, thermonuclear war, or you getting fired because the alarm app fai
 [click me first](docs/UNLOCK.md)
 
 ### DotOS Installation
-[click me after unlocking the bootloader](docs/INSTALL.md)
+[click me after unlocking the bootloader](docs/DOTOS.md)
