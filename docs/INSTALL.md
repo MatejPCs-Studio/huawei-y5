@@ -6,6 +6,11 @@ Your warranty is now void. I am not responsible for bricked devices, dead SD car
 Take a full backup of the device before doing any modifications!
 
 ## Step 1:
+If your device is bricked, flash the backup and reboot to system.
+Then go back to BROM and flash rgpt.bin to gpt by using ```mtk w gpt rgpt.bin```
+If you skip this step you wont be able to flash system and vendor.
+
+## Step 2:
 Boot to fastboot by doing Vol Up + PWR and select Fastboot Mode.
 Flash vendor, boot and cust from the images directory by using:
 ```
@@ -21,7 +26,7 @@ Delete userdata so you dont get stuck on the TWRP load screen:
 fastboot erase userdata
 ```
 
-## Step 2:
+## Step 3:
 Now, hold PWR until the screen goes black and IMMIDIETLY press PWR + Vol Up again.
 Then select Erecovery Mode and boot.
 Your device will now boot to "erecovery" which we replaced with TWRP.
@@ -32,7 +37,7 @@ adb push repack_twrp_in_erecovery.zip Disable_Dm-Verity_ForceEncrypt_11.02.2020.
 Go into install and install repack zip then DM-Verity zip.
 Disconnect the usb cable, go back, Reboot and Power Off.
 
-## Step 3:
+## Step 4:
 Now press PWR + Vol Up and select Erecovery Mode again.
 When TWRP loads, go to settings and select "use rm -rf instead of formatting" and then format all partisions except the SD Card and Vendor.
 Now we have the hardest part done but do not reboot.
