@@ -1,5 +1,5 @@
 # How to install DotOS
-(Wifi + BL working, sim probably too (not tested))
+(Wifi + BL working, SIM and DATA work. In Czechia only EDGE connection)
 
 ## IMPORTANT
 Your warranty is now void. I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.
