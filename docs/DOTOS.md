@@ -10,10 +10,19 @@ Take a full backup of the device before doing any modifications!
 
 ## Step 1:
 If your device is bricked, flash the backup and reboot to system.
-Then go back to BROM and flash rgpt.bin to gpt by using ```mtk w gpt rgpt.bin```
+Then go back to BROM and flash [rgpt.bin](https://github.com/MatejPCs-Studio/huawei-y5/releases/download/guide-v1/rgpt.bin) to gpt by using ```mtk w gpt rgpt.bin```
 If you skip this step you wont be able to flash system and vendor.
 
 ## Step 2:
+This step is VERY important.
+Stay in BROM Mode and open mtkgui, **erase** userdata and flash the stock backup WITHOUT **userdata** if you flash the userdata image the emmc wont enough space on it as we took 150MB from it and put it to vendor.
+Why are we doing this you might ask, well we do this because after we flash rgpt.bin it moves the partisions and the phone practicly shits itself.
+If you would boot without doing this step it will fall into erecovery and it wont even be able to do a data format.
+Now after you write the full backup **erase** userdata again for good messure.
+
+_you can boot to system, it will take around 8 minutes_
+
+## Step 3:
 Boot to fastboot by doing Vol Up + PWR and select Fastboot Mode.
 Flash vendor, boot and cust from the images directory by using:
 ```
@@ -29,7 +38,7 @@ Delete userdata so you dont get stuck on the TWRP load screen:
 fastboot erase userdata
 ```
 
-## Step 3:
+## Step 4:
 Now, hold PWR until the screen goes black and IMMIDIETLY press PWR + Vol Up again.
 Then select Erecovery Mode and boot.
 Your device will now boot to "erecovery" which we replaced with TWRP.
@@ -40,13 +49,13 @@ adb push repack_twrp_in_erecovery.zip Disable_Dm-Verity_ForceEncrypt_11.02.2020.
 Go into install and install repack zip then DM-Verity zip.
 Disconnect the usb cable, go back, Reboot and Power Off.
 
-## Step 4:
+## Step 5:
 Now press PWR + Vol Up and select Erecovery Mode again.
 When TWRP loads, go to settings and select "use rm -rf instead of formatting" and then format all partisions except the SD Card and Vendor.
 Now we have the hardest part done but do not reboot.
 
 Go to Advanced and ADB Sideload then slide to the right.
-Run this command and that will install the DotOS rom with all patches!
+Run this command and that will install the [DotOS rom](https://github.com/MatejPCs-Studio/huawei-y5/releases/download/guide-v1/dotos-guide.tar.gz) with all patches!
 ```
 adb sideload dotOS-flash.zip
 ```
