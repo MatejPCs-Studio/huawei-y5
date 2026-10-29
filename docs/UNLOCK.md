@@ -19,7 +19,7 @@ It should display a big "kaeru" logo.
 To get to fastboot use PWR + Vol Up and select Fastboot Mode.
 
 ## Custom Rom
-[click here after unlocking!](https://github.com/MatejPCs-Studio/huawei-y5/blob/main/docs/DOTOS.md)
+[click here after unlocking!](docs/DOTOS.md)
 
 ## Credits
 [@r0rt1z2](https://github.com/R0rt1z2) - for kaeru and mtkclient fork
