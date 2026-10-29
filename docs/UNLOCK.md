@@ -13,6 +13,8 @@ And flash kaeru by doing ```mtk w lk dura-kaeru.bin```.
 
 Your device is now unlocked!
 
+## Credits
+[@r0rt1z2](https://github.com/R0rt1z2)
 
 
 
