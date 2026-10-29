@@ -1,6 +1,9 @@
 # How to install DotOS
 (Wifi + BL working, sim probably too (not tested))
 
+## IMPORTANT
+Your warranty is now void. I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.
+Take a full backup of the device before doing any modifications!
 
 ## Step 1:
 Boot to fastboot by doing Vol Up + PWR and select Fastboot Mode.
