@@ -45,6 +45,8 @@ adb sideload dotOS-flash.zip
 
 And we are done! After that flashes, click Reboot System or go to the main menu and click Reboot -> System!
 
-## Bugs
+## Credits
+Lots and lots of people on the [4PDA forum](https://4pda.to/forum/index.php?showtopic=982322) for this device!
+## Bug
 You tell me!
 
