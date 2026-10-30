@@ -41,7 +41,7 @@ fastboot erase userdata
 ```
 
 ## Step 4:
-Now, hold PWR until the screen goes black and IMMIDIETLY press PWR + Vol Up again.
+Now, hold PWR until the screen goes black and IMMEDIATELY press PWR + Vol Up again.
 Then select Erecovery Mode and boot.
 Your device will now boot to "erecovery" which we replaced with TWRP.
 We need to repack the kernel and flash DM-Verity patch.
