@@ -8,7 +8,7 @@ YOU are choosing to make thesemodifications,and if you point the
 finger at me for messing up your device, I will laugh at you. 
 Take a full backup of the device before doing any modifications!
 ```
-### [Unlock Guide](docs/UNLOCK.md)
+## [Unlock Guide](docs/UNLOCK.md)
 
 ### List of working/verified roms
 ```
