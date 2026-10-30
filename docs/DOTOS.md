@@ -35,7 +35,7 @@ Then flash twrp from the image directory:
 ```
 fastboot flash erecovery twrp.img
 ```
-Delete userdata so you dont get stuck on the TWRP load screen:
+Erase userdata so you dont get stuck on the TWRP load screen: 
 ```
 fastboot erase userdata
 ```
