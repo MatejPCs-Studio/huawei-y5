@@ -57,9 +57,9 @@ When TWRP loads, go to settings and select "use rm -rf instead of formatting" an
 Now we have the hardest part done but do not reboot.
 
 Go to Advanced and ADB Sideload then slide to the right.
-Run this command and that will install the [DotOS rom](https://github.com/MatejPCs-Studio/huawei-y5/releases/download/guide-v1/dotos-guide.tar.gz) with all patches!
+Run this command and that will install the [DotOS rom](https://github.com/MatejPCs-Studio/huawei-y5/releases/download/roms/dotos-3.zip) with all patches!
 ```
-adb sideload dotOS-flash.zip
+adb sideload dotos-3.zip
 ```
 
 And we are done! After that flashes, click Reboot System or go to the main menu and click Reboot -> System!
