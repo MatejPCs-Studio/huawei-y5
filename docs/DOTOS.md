@@ -17,9 +17,9 @@ If you skip this step you wont be able to flash system and vendor.
 
 ## Step 2:
 This step is VERY important.
-Stay in BROM Mode and open mtkgui, **erase** userdata and flash the stock backup WITHOUT **userdata** if you flash the userdata image the emmc wont enough space on it as we took 150MB from it and put it to vendor.
-Why are we doing this you might ask, well we do this because after we flash rgpt.bin it moves the partisions and the phone practicly shits itself.
-If you would boot without doing this step it will fall into erecovery and it wont even be able to do a data format.
+Stay in BROM Mode and open mtkgui, **erase userdata** and flash the stock backup **WITHOUT userdata**. If you flash the userdata image the emmc wont enough space on it as we 
+took 150MB from it and gave it to the vendor partission.
+If you would boot without erasing userdata in this step it will fall into erecovery and it wont even be able to do a data format.
 Now after you write the full backup **erase** userdata again for good messure.
 
 _you can boot to system, it will take around 8 minutes_
