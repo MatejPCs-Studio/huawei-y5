@@ -17,7 +17,7 @@ If you skip this step you wont be able to flash system and vendor.
 
 ## Step 2:
 This step is VERY important.
-Stay in BROM Mode and open mtkgui, **erase userdata** and flash the stock backup **WITHOUT userdata**. If you flash the userdata image the emmc wont enough space on it as we 
+Stay in BROM Mode and open mtkgui, **erase userdata** and flash the full stock backup **WITHOUT userdata**. If you flash the userdata image the emmc wont enough space on it as we 
 took 150MB from it and gave it to the vendor partission.
 If you would boot without erasing userdata in this step it will fall into erecovery and it wont even be able to do a data format.
 Now after you write the full backup **erase** userdata again for good messure.
